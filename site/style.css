@@ -28,59 +28,85 @@ h2
     border-radius: 20px;
     border: 2px grey groove;
     align-content: flex-start;
-    /* align-items: stretch; */
     overflow:auto
-    /* margin: auto */
 }
 
-#conteneur
+
+h4 /* return at the beginning of the page */
+{
+    text-align: center
+}
+
+article
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 5px
+    border: 3px solid;
+    align-content: flex-start
 }
+
 
 p
 {
     width: 700px;
-    min-width: 50%;
+    min-width: 200px;
     font-size: 1em;
     font-family: "sinkin_sans400_regular";
     color : black;
     text-align: justify;
-    margin: 20px 2px 20px 2px;
+    margin: 10px 5px 30px 30px;
+    padding: 10px;
+    /* overflow: auto; */
+    word-wrap: break-word
+}
+
+
+#conteneur
+{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
     padding: 5px
 }
 
+
+
 .who
 {
+    width: auto;
     border-radius: 20px / 10px;
-    border: 2px grey groove;
+    border: 1px grey groove;
     font-size: 1.5em;
-    background-color: honeydew;
+    background-color: darkcyan;
     box-shadow: 6px 6px 10px grey
 }
+
 
 .magic
 {
     color: brown
 }
 
+
 a:hover
 {
     color:green
 }
+
 
 a:visited
 {
     color: purple
 }
 
+
 input:focus
 {
     background-color: orange
 }
+
 
 .footerer
 {
@@ -92,17 +118,18 @@ input:focus
     text-align: center;
 }
 
-.flottant
-{
-    float: left
-}
 
 
-.flex-container2
+
+
+
+
+
+/* .flex-container2
 {
     float: right;
     display:flex;
     flex-direction: column;
     border: 3px black solid;
     margin-left: 200px
-}
+} */
