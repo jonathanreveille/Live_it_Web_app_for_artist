@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('fonts/SinkinSans-400Regular-webfont.eot');
+    src: url('fonts/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SinkinSans-400Regular-webfont.woff2') format('woff2'),
+         url('fonts/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('fonts/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('fonts/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1
+{
+    font-family: "sinkin_sans400_regular";
+}
+
+h2
+{
+    font-family: "sinkin_sans400_regular";
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    background-color:rgba(255, 166, 0, 0.74);
+    border-radius: 20px;
+    border: 2px grey groove;
+    align-content: flex-start;
+    /* align-items: stretch; */
+    overflow:auto
+    /* margin: auto */
+}
+
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px
+}
+
+p
+{
+    width: 700px;
+    min-width: 50%;
+    font-size: 1em;
+    font-family: "sinkin_sans400_regular";
+    color : black;
+    text-align: justify;
+    margin: 20px 2px 20px 2px;
+    padding: 5px
+}
+
+.who
+{
+    border-radius: 20px / 10px;
+    border: 2px grey groove;
+    font-size: 1.5em;
+    background-color: honeydew;
+    box-shadow: 6px 6px 10px grey
+}
+
+.magic
+{
+    color: brown
+}
+
+a:hover
+{
+    color:green
+}
+
+a:visited
+{
+    color: purple
+}
+
+input:focus
+{
+    background-color: orange
+}
+
+.footerer
+{
+    height: 50px;
+    min-height: 100%;
+    width : 150px;
+    min-width: 100%;
+    border: 2px black ridge;
+    text-align: center;
+}
+
+.flottant
+{
+    float: left
+}
+
+
+.flex-container2
+{
+    float: right;
+    display:flex;
+    flex-direction: column;
+    border: 3px black solid;
+    margin-left: 200px
+}
